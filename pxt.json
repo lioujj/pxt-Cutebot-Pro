@@ -1,0 +1,36 @@
+{
+    "name": "pxt-cutebotpro",
+    "version": "2.0.3",
+    "description": "ELECFREAKS cutebotpro car",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:elecfreaks/pxt-neopixel#v0.6.21"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "v1.ts",
+        "v2.ts",
+        "IR.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "_locales/zh-cn/pxt-cutebotpro-strings.json",
+        "_locales/zh-tw/pxt-cutebotpro-strings.json",
+        "_locales/fr/pxt-cutebotpro-strings.json",
+        "_locales/cs/pxt-cutebotpro-strings.json",
+        "_locales/cs/pxt-cutebotpro-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

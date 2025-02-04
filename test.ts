@@ -1,17 +1,3 @@
-
-# Cute:bot Pro Car Package
-
-![](/image.png/)
-
-This library is designed to drive Cutebot Pro, You can get Cutebot Pro here.
-
-https://shop.elecfreaks.com/products/elecfreaks-smart-cutebot-pro-v2-programming-robot-car-for-micro-bit
-
-You can refer to this [wiki](http://wiki.elecfreaks.com/en/microbit/microbit-smart-car/microbit-smart-cutebot-pro/)
-
-## Code Example
-```JavaScript
-
 CutebotPro.irCallback(function () {
     if (CutebotPro.irButton(CutbotProIRButtons.Up)) {
         CutebotPro.distanceRunning(CutebotProOrientation.Advance, 10, CutebotProDistanceUnits.Cm)
@@ -107,11 +93,3 @@ basic.forever(function () {
         k = 0
     }
 })
-
-```
-## Supported targets
-for PXT/microbit
-
-## License
-MIT
-
